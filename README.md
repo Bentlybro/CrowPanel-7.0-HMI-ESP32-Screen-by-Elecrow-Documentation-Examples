@@ -1,4 +1,4 @@
-# CrowPanel 7.0" HMI ESP32 Screen by Elecrow Documentation & Examples
+# CrowPanel 7.0 HMI ESP32 Screen by Elecrow Documentation & Examples
 
 Welcome to the unofficial documentation and example repository for the CrowPanel 7.0" HMI ESP32 screen by Elecrow. This project aims to fill the gap in existing resources, providing both beginners and experienced developers with the necessary tools and information to jumpstart their projects.
 
@@ -19,12 +19,13 @@ The CrowPanel 7.0" is a high-quality, RGB TFT LCD touch screen designed for vers
 - **Basic Setup Guide**: Step-by-step instructions to get your CrowPanel up and running.
 - **Working Code Examples**: Explore a variety of examples that demonstrate the capabilities of the screen and how to utilize them in your projects.
 - **Advanced Tips & Tricks**: Learn from the community’s insights on leveraging the ESP32 and LVGL library to their fullest potential.
+- **New: Example Button Script**: We've added a new folder titled "Example Button Script" that contains all the scripts needed to flash and show a basic button interface. When pressed, this button will change the screen, serving as a fundamental test to properly display elements on the screen and ensure the touch functionality is working.
 
 ## Getting Started
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine to get access to all the documentation and examples.
 2. **Explore the Documentation**: Familiarize yourself with the CrowPanel and its functionalities through our detailed docs.
-3. **Try the Examples**: Experiment with the provided examples to understand the basics and more advanced features of the screen.
+3. **Try the Examples**: Experiment with the provided examples to understand the basics and more advanced features of the screen. Be sure to check out the "Example Button Script" to see a simple yet effective demonstration of screen and touch capabilities.
 4. **Contribute**: Found something missing or made an improvement? Contributions are highly encouraged through pull requests.
 
 ## Contribution Guidelines
