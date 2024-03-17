@@ -10,7 +10,7 @@ The CrowPanel 7.0" is a high-quality, RGB TFT LCD touch screen designed for vers
 
 ## Why This Repository?
 
-- **Lack of Documentation**: Navigating the official resources can be challenging. This repository offers concise, understandable documentation to get you started.
+- **Lack of Documentation**: Navigating the very little official resources can be challenging. This repository offers concise, understandable documentation to get you started.
 - **Ready-to-Use Examples**: Jump straight into coding with our practical examples, ranging from basic setups to more complex applications.
 - **Community Contributions**: Benefit from the collective knowledge of the community. Contributions are welcome to expand and refine the documentation and examples.
 
