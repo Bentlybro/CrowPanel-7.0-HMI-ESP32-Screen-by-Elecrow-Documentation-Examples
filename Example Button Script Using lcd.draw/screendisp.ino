@@ -107,20 +107,20 @@ int counter = 0; // Counter for button press
 bool buttonPressed = false; // Flag to track button press
 
 void drawButton() {
-    // Draw button in the middle of the screen
-    lcd.fillRect(lcd.width() / 2 - 50, lcd.height() / 2 - 25, 100, 50, TFT_BLUE);
+    // Draw button in the middle of the screen with pink color
+    lcd.fillRect(lcd.width() / 2 - 50, lcd.height() / 2 - 25, 100, 50, lgfx::color565(255, 105, 180)); // Pink color
     lcd.setTextSize(2);
-    lcd.setTextColor(TFT_WHITE);
-    lcd.setTextDatum(textdatum_t::middle_center); // Corrected text datum
+    lcd.setTextColor(lgfx::color565(0, 0, 0)); // Black text color
+    lcd.setTextDatum(textdatum_t::middle_center);
     lcd.drawString("PRESS", lcd.width() / 2, lcd.height() / 2);
 }
 
 void drawCounter() {
     // Draw counter at the bottom middle of the screen
-    lcd.fillRect(0, lcd.height() - 20, lcd.width(), 20, TFT_BLACK);
+    lcd.fillRect(0, lcd.height() - 20, lcd.width(), 20, lgfx::color565(0, 0, 0)); // Black background
     lcd.setTextSize(2);
-    lcd.setTextColor(TFT_WHITE);
-    lcd.setTextDatum(textdatum_t::baseline_center); // Corrected text datum
+    lcd.setTextColor(lgfx::color565(255, 255, 255)); // White text color
+    lcd.setTextDatum(textdatum_t::baseline_center);
     lcd.drawString(String(counter), lcd.width() / 2, lcd.height());
 }
 
@@ -156,4 +156,3 @@ void loop() {
 
     delay(10);
 }
-
