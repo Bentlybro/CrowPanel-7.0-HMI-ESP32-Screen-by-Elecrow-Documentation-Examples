@@ -1,3 +1,8 @@
+/* 
+  You have to install this Arduino library:
+  LovyanGFX: https://github.com/lovyan03/LovyanGFX
+*/
+
 #include <Wire.h>
 #include <SPI.h>
 
