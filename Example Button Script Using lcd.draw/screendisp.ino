@@ -1,3 +1,8 @@
+/* 
+  You have to install this Arduino library:
+  LovyanGFX: https://github.com/lovyan03/LovyanGFX
+*/
+
 #define LGFX_USE_V1
 #include <LovyanGFX.hpp>
 #include <lgfx/v1/platforms/esp32s3/Panel_RGB.hpp>
